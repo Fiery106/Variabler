@@ -14,3 +14,16 @@
 
 
 
+function hentVerdier() {
+    let formNavn = document.getElementById('formNavn');
+    let formTekst = document.getElementById('formTekst');
+    let formSelect = document.getElementById('formSelect');
+    let formFarge = document.getElementById('formFarge');
+    let formDato = document.getElementById('formDato');
+
+    console.log(formNavn.value)
+    console.log(formTekst.value)
+    console.log(formSelect.value)
+    console.log(formFarge.value)
+    console.log(formDato.value)
+}
